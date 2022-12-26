@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: bisque;">
+
+  
+      <div class="col-lg-4 offset-4" id="zakaz" style="text-align: center;">
+        <h1>Ваши данные</h1>
+        <p>Фио: </p>
+        <p>Номер телефона: </p>
+        <p>Адресс: </p>
+        <p>Email: </p>
+      <h1>Ваши выбранные товары:</h1> 
+
+      <ol class="list-counter-square">
+        <li id="tovv1"></li>
+        <li id="tovv2"></li>
+        <li id="tovv3"></li>
+        <li id="tovv4"></li>
+        <li id="tovv5"></li>
+        <li id="tovv6"></li>
+        <li id="tovv7"></li>
+        <li id="tovv8"></li>
+        <li id="tovv9"></li>
+        <li id="tovv10"></li>
+        <li id="tovv11"></li>
+        <li id="tovv12"></li>
+        </ol>
+
+
+    </div>
+<script>
+        console.log(sessionStorage.tovv1);
+        let tovv1 = sessionStorage.tovv1;
+        document.getElementById("tovv1").innerHTML = tovv1;
+        let tovv2 = sessionStorage.tovv2;
+        document.getElementById("tovv2").innerHTML = tovv2; 
+        let tovv3 = sessionStorage.tovv3;
+        document.getElementById("tovv3").innerHTML = tovv3; 
+        let tovv4 = sessionStorage.tovv4;
+        document.getElementById("tovv4").innerHTML = tovv4; 
+        let tovv5 = sessionStorage.tovv5;
+        document.getElementById("tovv5").innerHTML = tovv5; 
+        let tovv6 = sessionStorage.tovv6;
+        document.getElementById("tovv6").innerHTML = tovv6; 
+        let tovv7 = sessionStorage.tovv7;
+        document.getElementById("tovv7").innerHTML = tovv7; 
+        let tovv8 = sessionStorage.tovv8;
+        document.getElementById("tovv8").innerHTML = tovv8;
+        let tovv9 = sessionStorage.tovv9;
+        document.getElementById("tovv9").innerHTML = tovv9;
+        let tovv10 = sessionStorage.tovv10;
+        document.getElementById("tovv10").innerHTML = tovv10;
+        let tovv11 = sessionStorage.tovv11;
+        document.getElementById("tovv11").innerHTML = tovv11;
+        let tovv12 = sessionStorage.tovv12;
+        document.getElementById("tovv12").innerHTML = tovv12;
+
+        if ( forma.k1.checked == false){
+          tovv1.hidden = true;
+        }
+
+</script>
+</body>
+</html>
